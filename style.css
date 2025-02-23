@@ -1,7 +1,19 @@
 body {
-  background-color: mediumaquamarine;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: flex-end;
 }
 
-h1 {
+.box {
+  display: flex;
+  width: 400px;
+  height: 400px;
+  background-color: tomato;
   color: white;
+  font-size: 68px;
+  justify-content: center;
+  align-items: center;
 }
