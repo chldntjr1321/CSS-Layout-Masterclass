@@ -1,8 +1,9 @@
-@import "./reset.scss";
+@use "./reset.scss";
 
 body {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-color: #D8DBDE;
 }
