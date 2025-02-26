@@ -7,52 +7,44 @@
     <title>CSS Layout Masterclass</title>
   </head>
   <body>
-    <div class="phone"></div>
-    <header class="header">
-      <ul class="header__list">
-        <li class="header__list-item">All</li>
-        <li class="header__list-item">Advertising</li>
-        <li class="header__list-item">Dev & Reserch</li>
-        <li class="header__list-item">Goals</li>
-      </ul>
-    </header>
-    <div class="cards">
-      <div class="cards__card">
-        <h2 class="card__title">The Making of Modern Art</h2>
-        <div class="card__footer">
-          <span class="price">Free</span><span class="length">2</span>
+    <div class="wrapper">
+      <div class="grid">
+        <header class="header">
+          <div class="header__top">
+            <span class="header__reviews">4.98</span>
+            <span class="header__label">Best reviews</span>
+          </div>
+          <h1 class="header__title">Grid!</h1>
+          <h3 class="header__subtitle">
+            CSS grid is awesome and we love it because we can make many things
+          </h3>
+        </header>
+        <div class="grid__img"></div>
+        <nav class="nav">
+          <ul>
+            <li class="nav__item">About</li>
+            <li class="nav__item">Solutions</li>
+            <li class="nav__item">Portfolio</li>
+            <li class="nav__item">Blog</li>
+          </ul>
+          <span class="nav__cta">Hire Us</span>
+        </nav>
+        <div class="grid__cell">
+          <span>Recent collabs</span>
         </div>
-      </div>
-      <div class="cards__card">
-        <h2 class="card__title">Mobile Interfaces Advanced</h2>
-        <div class="card__footer">
-          <span class="price">Free</span><span class="length">2</span>
+        <div class="grid__cell">
+          <span>Recent collabs</span>
         </div>
-      </div>
-      <div class="cards__card">
-        <h2 class="card__title">Graphic Design</h2>
-        <div class="card__footer">
-          <span class="price">$199/month </span
-          ><span class="length">9 months</span>
-        </div>
-      </div>
-      <div class="cards__card">
-        <h2 class="card__title">Web Design Junior</h2>
-        <div class="card__footer">
-          <span class="price">Free</span><span class="length">3</span>
-        </div>
-      </div>
-      <div class="cards__card">
-        <h2 class="card__title">Inclusive Web Design</h2>
-        <div class="card__footer">
-          <span class="price">$99/month </span><span class="length">3</span>
-        </div>
-      </div>
-      <div class="cards__card">
-        <h2 class="card__title">Machine Learning</h2>
-        <div class="card__footer">
-          <span class="price">$199/month </span
-          ><span class="length">9 months</span>
+        <div class="grid__img"></div>
+        <div class="grid__img"></div>
+        <div class="grid__img"></div>
+        <div class="blog-post">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+            neque sequi esse, praesentium illum tempora id ratione nobis fugiat
+            at animi voluptates fugit dicta placeat, veniam dolore assumenda sit
+            obcaecati!
+          </p>
         </div>
       </div>
     </div>
